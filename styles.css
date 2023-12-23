@@ -1,0 +1,42 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 24px;
+}
+
+form{
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 25vw;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.invalid{
+    outline: none;
+    border: 2px solid red;
+}
+
+.valid{
+    outline: none;
+    border: 2px solid green;
+}
+
+.error{
+    color: red;
+}
+
+.greet{
+    display: none;
+}
